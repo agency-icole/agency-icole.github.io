@@ -43,6 +43,8 @@
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
 
+    <link href="css/custom.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
@@ -85,8 +87,8 @@
     <div class="container">
         <img src="icon/logo-icon.png" class="img-fluid" style="float: left; z-index: -1"/>
         <div class="intro-text">
-            <div class="intro-lead-in">Welcome To Our Workshop!</div>
-            <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
+            <div class="intro-lead-in">Welcome to the Open Infrastructure!</div>
+            <div class="intro-heading text-uppercase">Corporate class solutions</div>
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
         </div>
     </div>
@@ -98,7 +100,17 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">Services</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">We are a group of computer Geeks that decide to join the
+                    forces in creating the world-first Open Infrastructure project combining our expertise with the
+                    power
+                    of Open Source technologies.<br/><br/>
+                    We are here to enable you for the Continous Integration/Continous Delivery (CI/CD)
+                    philosophy.<br/><br/>
+                    Whatever you are an individual, startup, small or medium enterprise or a big corporation you are
+                    definitively
+                    at the right place.
+
+                </h3>
             </div>
         </div>
         <div class="row text-center">
@@ -108,8 +120,9 @@
             <img src="img/icons/analysis.png">
           </span>
                 <h4 class="service-heading">Analysis</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                    architecto quo inventore harum ex magni, dicta impedit.</p>
+                <p class="text-muted">Together we will analyze your needs and possibilities in opening your projects for
+                    CI/CD process. At the end of this phase, you will be delivered a complete roadmap to deploy CI/CD
+                    into your organization.</p>
             </div>
             <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -117,8 +130,10 @@
             <img src="img/icons/deployment.png">
           </span>
                 <h4 class="service-heading">Deployment</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                    architecto quo inventore harum ex magni, dicta impedit.</p>
+                <p class="text-muted">We will deploy CI/CD into your organization or we will help you to create one.
+                    Using our Open Source tools and framework we will automate almost the whole Software Development
+                    cycle of your projects. We will train you and will teach you how to fully take advantage of CI/CD
+                    deployment.</p>
             </div>
             <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -126,105 +141,66 @@
            <img src="img/icons/wrench.png">
           </span>
                 <h4 class="service-heading">Maintenance</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                    architecto quo inventore harum ex magni, dicta impedit.</p>
+                <p class="text-muted">We will not leave you alone after the Deployment. We will continue to support you
+                    and your team in your daily struggle keeping your environment healthy and up to date with the
+                    constant changes.</p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Portfolio Grid -->
-<section class="bg-light page-section" id="portfolio">
+<section class="bg-light page-section details-card" id="portfolio">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Portfolio</h2>
+                <h2 class="section-heading text-uppercase">Projects</h2>
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
             </div>
         </div>
+
+        <!-- details card section starts from here -->
         <div class="row">
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
+            <div class="col-md-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="./img/project/api.jpg" alt="">
+                        <span><h4>0.0.2</h4></span>
                     </div>
-                    <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Threads</h4>
-                    <p class="text-muted">Illustration</p>
+                    <div class="card-desc">
+                        <h3>Portainer API</h3>
+                        <p>Build on top of revolutionary Portainer server it provides Java API from which you can manage
+                            your whole Docker fleet.</p><br/>
+                        <a href="https://github.com/agency-icole/portainer-api" class="btn-card">Get Now</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
+            <div class="col-md-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="./img/project/plugin2.jpg" alt="">
+                        <span><h4>0.0.2</h4></span>
                     </div>
-                    <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Explore</h4>
-                    <p class="text-muted">Graphic Design</p>
+                    <div class="card-desc">
+                        <h3>Portainer Plugin</h3>
+                        <p>Plugin for Apache Maven building system that supports CI/CD process using Portainer API to
+                            configure, deploy and manage your services in the world of Docker staks.</p>
+                        <a href="https://github.com/agency-icole/portainer-plugin" class="btn-card">Get Now</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
+            <div class="col-md-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="./img/project/spring.jpg" alt="">
+                        <span><h4>0.0.2</h4></span>
                     </div>
-                    <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Finish</h4>
-                    <p class="text-muted">Identity</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
+                    <div class="card-desc">
+                        <h3>Spring Utils</h3>
+                        <p>Created for Spring Boot applications set of components and utilities that will help Developers
+                            to monitor the health and control dockerized applications and environment. </p>
+                        <a href="https://github.com/agency-icole/spring-utils" class="btn-card">Get Now</a>
                     </div>
-                    <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Lines</h4>
-                    <p class="text-muted">Branding</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Southwest</h4>
-                    <p class="text-muted">Website Design</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Window</h4>
-                    <p class="text-muted">Photography</p>
                 </div>
             </div>
         </div>
