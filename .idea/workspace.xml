@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14806048-ee54-4bec-9824-91e01741e1f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agency.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/android-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/android-icon-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/android-icon-36x36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/android-icon-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/android-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/android-icon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/apple-icon-114x114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/apple-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/apple-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/apple-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/apple-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/apple-icon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/apple-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/apple-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/apple-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/apple-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/favicon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/logo-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/ms-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/ms-icon-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/ms-icon-310x310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/ms-icon-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="210" lean-forward="true" selection-start-line="210" selection-end-line="210" />
+            <state relative-caret-position="29">
+              <caret line="225" column="40" selection-start-line="225" selection-start-column="40" selection-end-line="225" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -117,7 +88,7 @@
             <path>
               <item name="agency-icole.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="agency-icole.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567787390430</updated>
-      <workItem from="1567787391871" duration="12391000" />
+      <workItem from="1567787391871" duration="16260000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1567787431609</created>
@@ -177,14 +148,36 @@
       <option name="project" value="LOCAL" />
       <updated>1567792214423</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="more chapters">
+      <created>1567808988087</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567808988087</updated>
+    </task>
+    <task id="LOCAL-00004" summary="images">
+      <created>1567810796351</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567810796351</updated>
+    </task>
+    <task id="LOCAL-00005" summary="missing text on Open Source projects">
+      <created>1567813483624</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567813483624</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12391000" />
+    <option name="totallyTimeSpent" value="16260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -222,7 +215,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="basic foundation laid" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic foundation laid" />
+    <MESSAGE value="more chapters" />
+    <MESSAGE value="images" />
+    <MESSAGE value="missing text on Open Source projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="missing text on Open Source projects" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/agency.css">
@@ -241,8 +237,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="210" lean-forward="true" selection-start-line="210" selection-end-line="210" />
+        <state relative-caret-position="29">
+          <caret line="225" column="40" selection-start-line="225" selection-start-column="40" selection-end-line="225" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
