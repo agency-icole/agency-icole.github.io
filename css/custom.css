@@ -244,6 +244,14 @@ color: #ffffff;}
     box-shadow: 0 1px 0 0 #3da3eb;
 }
 
+.video-header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
 
 .video-header video {
     position: absolute;
@@ -278,7 +286,7 @@ color: #ffffff;}
 
 @media (pointer: coarse) and (hover: none) {
     .video-header {
-        background: url('http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg') black no-repeat center center scroll;
+        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
     }
     .video-header video {
         display: none;
